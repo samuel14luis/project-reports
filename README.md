@@ -4,7 +4,8 @@
 1. [Información General](#general-info)
 2. [Tecnologias](#tecnologias)
 3. [Instalacion](#instalacion)
-4. [Uso](#uso)
+4. [Accesos](#accesos)
+5. [Uso](#uso)
 
 ## General Info
 ***
@@ -27,7 +28,7 @@ $ cd ../path/to/the/file
 ```
 Nota: Para un funcionamiento adecuado utilizar ```Excel 2012 en adelante``` y ```Power Bi 2.1 en adelante```
 
-## Uso
+## Accesos
 ***
 Contraseña del VBA Project: humtherland2021
 
@@ -41,3 +42,29 @@ Contraseñas:
   
 ![imagen](https://user-images.githubusercontent.com/25417920/155059638-666a7c9c-e794-4898-ab96-ec4215a943b7.png)
 
+## Uso
+***
+MODO MANAGER: Planificar y dar mantenimiento a las tablas en Excel.
+
+### Diagrama de relaciones
+![imagen](https://user-images.githubusercontent.com/25417920/155060841-9f82adc8-b0f4-4a7c-98bb-0b9a0d1903f5.png)
+
+TABLAS A LAS QUE ACCEDE
+* [TB_PROYECTOS]
+* [TB_EPICAS]
+* [TB_FEATURES]
+* [TB_USERSTORIES]
+* [TB_SPRINT]
+* [TB_AREAS]
+* [TB_PERSONAS]
+* [TB_EQUIPO]
+* [TB_TAREAS]
+
+
+MODO TEAM: Cada miembro del equipo debe revisar sus tareas y actualizar el estado en el Registro de tareas.
+### Estados de tarea
+![imagen](https://user-images.githubusercontent.com/25417920/155060985-1434e141-6cc8-4081-ae26-c95aa8212745.png)
+
+TABLAS A LAS QUE ACCEDE
+* [TB_TAREAS] SOLO VER
+* [TB_REGISTROS] ACTUALIZAR
